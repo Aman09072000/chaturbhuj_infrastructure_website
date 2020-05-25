@@ -1,0 +1,229 @@
+/*main-page*/
+
+/*header-starting*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.header{
+    overflow:hidden;
+    background-color: black;
+   width: 100%;
+    height:125px;
+    border-bottom: red;
+}
+.header-title h2{
+     color:White;
+    padding-top: 30px;
+    padding-left: 250px;
+    text-decoration: none;
+    font-size: 38px;
+   font-family: cursive
+}
+.header-logo img{
+    float: left;
+    height: 125px;
+    width: 125px;   
+}
+.header-tag a{
+    float: right;
+    padding: 20px 10px 15px 10px;
+    font-size:18px;
+    overflow: hidden;
+    color: white;
+}
+a:hover{
+    color:black;
+    background-color: white;
+}
+/*header-ending*/ 
+
+
+
+/*main-starting*/
+.main{
+background-image: url(img/studio-ocular-8HrVclautyw-unsplash.jpg) ; 
+    background-position: center;
+    background-origin: content-box;
+    height:auto;
+    width:100%;
+    
+}
+.main-quote{
+    padding: 20px ;
+    color:white;
+    font-size: 28px;
+    text-align: center;
+    text-underline-position: auto;
+}
+#quote-by{
+    font-size: 20px;
+    float:right;
+    padding-right: 30px;
+}
+.image-slider{
+  width:550px;
+    overflow: hidden;
+    margin: 50px;
+    margin-left: 200px;
+}
+#image-container{
+  position: relative;
+    width: 1080px;
+    animation-name: aman;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#image-container img{
+    float: left;
+}
+@keyframes aman{
+    0%{
+        left: 0px;
+    }
+    
+    100%{
+        left: -550px;
+    }
+}
+.About-us h3{
+   color: white;
+    font-size: 60px;
+    font-family: inherit;
+    padding-left: 30px;
+}
+.About-us p{
+    padding-top: 20px;
+    padding-left: 20px;
+    color:White;
+    font-size: 30px;
+    text-align: center;
+}
+/*main ending*/
+
+
+
+/*footer starting*/
+.footer{
+    width: 100%;
+    overflow: hidden;
+color: white;
+background-color: black;
+}
+.footer-left{
+    float: left;
+}
+.footer-logo img{
+    height:70px;
+    width: 100px;
+    padding: 10px 10px 10px 130px;
+    }
+.footer-title h2{
+    padding-left: 40px;
+}
+.footer-tag a{
+   float: right;
+   padding: 30px 20px;
+font-size: 20px;
+    color:white;
+    overflow: hidden;
+}
+a:hover{
+    color:black;
+    background-color: white;
+}
+/*f00ter end*/
+
+
+/*........................*/
+
+
+/*contact page main coding*/
+#contact{
+    color: white;
+    font-size: 60px;
+    font-family: inherit;
+    padding: 60px 0px 0px 50px;
+    text-align: center;
+    
+    }
+.details{
+    color: white;
+    font-size: 30px;
+    padding: 60px 0px 30px 50px;
+}
+.details h3{
+    padding-top: 40px;
+}
+#map{
+    text-align: center;
+    padding-bottom: 50px;
+   }
+/*contact page end*/
+
+
+/*..........................*/
+
+
+/*albums page main coding*/
+.main-index{
+    height: 100%;
+    width: 100%;
+}
+#main-heading{
+   color: white;
+    font-size: 60px;
+    font-family: inherit;
+    padding: 60px 0px 0px 50px;
+    text-align: center; 
+}
+#empty-main{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    }
+/*albums page ending*/
+
+
+/*...........................*/
+
+
+/*privacy page main coding */
+/*privacy page ending*/
+
+
+/*...............................*/
+
+
+/*Security page main coding */
+/*security page ending*/
+
+
+/*................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
